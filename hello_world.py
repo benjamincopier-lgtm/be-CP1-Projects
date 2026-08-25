@@ -10,4 +10,4 @@ print("there are three paths one in front of you, one to the left of you, and on
 choices=input("if you wish to go to the left type left, if you want to go to the right type right and if you want to go forward type front: " )
 if (choices == "left"):print("you go to the left")
 if (choices == "right"):print("you go to the right")
-if (choices == "forward"):print
+if (choices == "forward"):print("you go forward")
