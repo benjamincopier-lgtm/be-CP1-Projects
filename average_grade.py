@@ -61,4 +61,4 @@ total_numb= grade_1 + grade_2 + grade_3 + grade_4 + grade_5 + grade_6 + grade_7
 average_grade= float( total_numb/7)
 print("unrounded grade" , average_grade)
 rounded_grades= round(average_grade,2)
-print(rounded_grades)
+print("the rounded grade is" ,rounded_grades)
