@@ -1,0 +1,10 @@
+#Benjamin copier madlib
+verb1=input("give me a verb that doesn't end in ing.: ")
+ing=("ing")
+noun1=input("give me a place: ")
+adjective1=input("give me an adjective: ")
+noun2=input("give me a noun: ")
+noun3=input("give me a proper noun: ")
+adjective2=input("give me an adjective: ")
+verb2=input("give me a verb:")
+print("I was "+verb1 + "" + ing +" on my usual route that I "+verb1 + " on to the " + noun1 + " when I saw an " + adjective1 + " " + noun2 + " standing in front of the " + noun1 + " . when i looked again my friend " + noun3 + " was running at me "+ adjective2 +". i asked " + noun3 + " what was making him "+ adjective2+". " + noun3 + " said that someone tried to " + verb2 + " him. I asked him who tried to " + verb2 + " him, he said that a " + adjective1 + " " + noun2 + " did it" )
