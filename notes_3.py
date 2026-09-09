@@ -31,3 +31,8 @@ def split_number_by_string(number, position):
 left, right = split_number_by_string(123456789, 4)
 print(f"Left: {left}, Right: {right}")
 # Output: Left: 1234, Right: 56789
+#import random calls a module library
+#a function is movable code that has been built that you can use just by saying its name
+#save randint give lowest and give highest (1, 10)
+#for a computer to get a rand int it needs a specific numb
+#rand.rand gives a 0-1 
