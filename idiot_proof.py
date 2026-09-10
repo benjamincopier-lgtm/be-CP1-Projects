@@ -11,11 +11,10 @@ while True:
         break
 sphone=str(phone)
 print(sphone)
-new_phone= sphone[0:2]
+new_phone= str(sphone[0:3])
 print(new_phone)
-old_phone= sphone[3:7]
-print(old_phone)
-snew_phone=str(new_phone)
-print(snew_phone)
-new_phone2= sphone[:6]
+new_phone2= str(sphone[3:6])
 print(new_phone2)
+new_phone3= str(sphone[6:10])
+print(new_phone3)
+print("your phone number is " + new_phone+"-"+new_phone2+"-"+new_phone3)
