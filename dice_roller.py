@@ -9,4 +9,5 @@ while True:
     else:
         break
 dice_chosen=random.randint(1,dicetype)
-print("you rolled a nat"+dice_chosen)
+sdice_chosen=str(dice_chosen)
+print("you rolled a nat "+sdice_chosen)
