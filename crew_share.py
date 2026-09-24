@@ -30,7 +30,7 @@ yondus_rounded_new_cut=round(yondus_new_cut,2)
 string_rounded_ravagers_with_leaders_cut=str(rounded_ravagers_with_leaders_cut)
 string_peters_new_cut= str(rounded_peters_new_cut)
 string_yondus_new_cut = str(yondus_rounded_new_cut)
-
+print("we found", credits_earned)
 print( f"all of the ravagers have at least gotten " +string_rounded_ravagers_with_leaders_cut)
 print(f"peter in total got "+string_peters_new_cut)
 print(F"yondu got in total " + string_yondus_new_cut)
