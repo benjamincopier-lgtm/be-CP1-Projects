@@ -1,7 +1,7 @@
 #benjamin copier user sing in
 
-username= ("stungbyawasp8000times")
-password=("codz0mbiesareawsome")
+username= "stungbyawasp8000times"
+password="codz0mbiesareawsome"
 inputed_username= input("input your username: ")
 inputed_password= input("input your password: ")
 if username==inputed_username:
