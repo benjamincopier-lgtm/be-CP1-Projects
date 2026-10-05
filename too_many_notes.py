@@ -24,4 +24,16 @@ for i in range(20, -1, -1):
         print("sorry its lunch time")
         time.sleep(60)
 print("kabloom")
-for i in range()
+for i in range():
+    67
+    
+
+#numbmultipier=0
+
+#for numb3 in range(1,):
+#    numb4=numb3
+#    while numbmultipier <= 12:
+#        numbmultipier+=1
+#        numbmultipier2 =numb4*numbmultipier
+#        print(numbmultipier2)
+#    print(numbmultipier2)

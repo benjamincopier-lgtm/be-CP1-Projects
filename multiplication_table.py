@@ -1,8 +1,8 @@
 #benjamin copier
 
-for numb1 in range(1,13):
-    print(numb1)
-    numb2=numb1
-    print(numb2)
-    numb3=numb2*numb1
-    print(numb3)
+numbmultipier=0
+for numb1 in range(1, 13):
+    numbmultipier+=1
+    for numb1 in range(numbmultipier, 13 * numbmultipier, numbmultipier):
+        print(numbmultipier, end = "\t" )
+    print("\n")
