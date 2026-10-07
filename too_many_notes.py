@@ -6,34 +6,35 @@
 #Met Condition: when a loop's condition evaluates to true, allowing it to continue or begin another pass
 #Failed Condition: when a loop's condition evaluates to false, which is what causes the loop to stop
 #Exit Condition: the condition that determines when a loop stops running — for a for loop, this is simply running out of items to iterate over
-import time
+#import time
 
-cheeses=["gajhsdf","ash","sfhwsfds","askjhfakjaeddkfjehf"]
-for cheese in cheeses:
-    print(f"gsdjhg {cheese}")
-gfdfdgfgf=["gfhcvcnbccncvcbvcnbvcmnbvnbvnccbvcbvcbvcnbvnbvcnbvbvcn","mnbmnmnb","mnbnbvbvbvnxbvxbvcnbvcnbnbvnbvmnbmnb","mnnbvbvvcvnhvbvbvmnb"]
-for fhsadfj in gfdfdgfgf:
-    print(f"sfkkjklk {fhsadfj}")
-for i in range(2,21,2):
-    print(i)
-    time.sleep(0.8)
-for i in range(20, -1, -1):
-    print(i)
-    time.sleep(1)
-    if i == 13:
-        print("sorry its lunch time")
-        time.sleep(60)
-print("kabloom")
-for i in range():
-    67
+#cheeses=["gajhsdf","ash","sfhwsfds","askjhfakjaeddkfjehf"]
+#for cheese in cheeses:
+#    print(f"gsdjhg {cheese}")
+#gfdfdgfgf=["gfhcvcnbccncvcbvcnbvcmnbvnbvnccbvcbvcbvcnbvnbvcnbvbvcn","mnbmnmnb","mnbnbvbvbvnxbvxbvcnbvcnbnbvnbvmnbmnb","mnnbvbvvcvnhvbvbvmnb"]
+#for fhsadfj in gfdfdgfgf:
+#    print(f"sfkkjklk {fhsadfj}")
+#for i in range(2,21,2):
+#    print(i)
+#    time.sleep(0.8)
+#for i in range(20, -1, -1):
+#    print(i)
+#    time.sleep(1)
+#    if i == 13:
+#        print("sorry its lunch time")
+#        time.sleep(60)
+#print("kabloom")
+#for i in range():
+#    67
     
 
 #numbmultipier=0
 
-#for numb3 in range(1,):
-#    numb4=numb3
-#    while numbmultipier <= 12:
-#        numbmultipier+=1
-#        numbmultipier2 =numb4*numbmultipier
-#        print(numbmultipier2)
-#    print(numbmultipier2)
+for numb3 in range(1,):
+    numb4=numb3
+    while numbmultipier <= 12:
+        numbmultipier+=1
+        numbmultipier2 =numb4*numbmultipier
+        
+        print(numbmultipier2)
+    print(numbmultipier2)
