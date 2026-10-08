@@ -1,5 +1,5 @@
 
-"""def times(number):
+def times(number):
     return number*2
 
 numbers= range(1,5)
@@ -7,7 +7,7 @@ numbers= range(1,5)
 multiplied_numbers = map(times,numbers)
 
 print(*list(multiplied_numbers))
-new_numbers = []
+"""new_numbers = []
 for number in numbers:
     new_numbers.append(number*2)
 
