@@ -1,12 +1,7 @@
 
 
-def birthday():
+def birthday(name):
     print("happy birthday to you")
+    print(f"happpy {name}")
 
-
-birthday()
-birthday()
-print("happy")
-birthday()
-happy="v"
-#v
+birthday("steve")
