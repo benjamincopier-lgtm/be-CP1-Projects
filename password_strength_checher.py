@@ -9,7 +9,7 @@ while continue1==False:
     else:
         true1=False
         print("no capitals are in your password")
-    int_find_in_password1=password.find("1")
+    """int_find_in_password1=password.find("1")
     int_search1=int(int_find_in_password1)
     int_find_in_password2=password.find("2")
     int_search2=int(int_find_in_password2)
@@ -33,7 +33,7 @@ while continue1==False:
         true2=True
     else:
         true2=False
-        print("you should have a number")
+        print("you should have a number")"""
     password_length_check=len(password)
     if password_length_check >= 8:
         true3=True
@@ -43,7 +43,8 @@ while continue1==False:
     if true1==True and true2==True and true3==True:
         print("your password is super strong, try not to forget it")
         continue1=True
-    elif true1==True and true3 == True or true1 == True and true2==True or true2 == True and true3 == True:
+    elif true1==True and true3 == True or true1 == True and #
+    true2==True or true2 == True and true3 == True:
         print("you have a medium strength password")
         continue1=True  
     else:
