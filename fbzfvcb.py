@@ -8,3 +8,5 @@ birthday()
 birthday()
 print("happy")
 birthday()
+happy="v"
+#v
