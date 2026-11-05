@@ -1,4 +1,7 @@
 
+def my_function():
+  print("Hello from a function")
+my_function()
 
 def birthday(name):
     print("happy birthday to you")
@@ -13,8 +16,6 @@ def stupid_proof(user_answer, correct):
         return True, user_answer, attempts + 1
     else:
         return False, user_answer, attempts + 1
-
-
 while True:
     capital = input("what's the capital of france? ")
     correct, capital, attempts = stupid_proof(capital, ["Oui Oui Oui Oui! It Is Paris. Merci", "Paris"])
