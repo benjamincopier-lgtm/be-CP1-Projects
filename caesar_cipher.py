@@ -1,28 +1,28 @@
 #ben copier caesar cipher
 while True:
+    
     def answer(steve):
+            answer(input("do you want to encrypt or to decrypt: "))
             if steve=="encrypt":
                 steve2=input("what do you want to encrypt")
-\
-\
-#                    while steve6 !=26:
+#                    while steve6 !
+    def answer(steve):
 
-            elif answer == "decrypt":
-                steve2=input("what do you want to encrypt")
-
+            if steve=="decrypt":
+                  print("what do you want to decrypt")
             else:
                 print("try again")
                 return
     answer(input("do you want to encrypt or to decrypt: "))
+    
 
 
 """
-
 attempts = 0
 def stupid_proof(user_answer, correct):
     user_answer = user_answer.strip().title()
     if user_answer in correct:
-        return True, user_answer, attempts + 1
+        return True, user_answer, attempts + 1"encrypt":
     else:
         return False, user_answer, attempts + 1
 while True:
