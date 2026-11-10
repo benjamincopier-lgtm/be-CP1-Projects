@@ -59,3 +59,4 @@ if success == False:
                     print("cheater, you still won, but you know what you did")
                 else:
                     print("you are consumed by the fire, you should have thought harder")
+                    

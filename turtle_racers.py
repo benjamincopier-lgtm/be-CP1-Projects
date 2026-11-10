@@ -13,34 +13,54 @@ turtle_green.shape("turtle")
 turtle_green.color("green")
 turtle_green.penup()
 turtle_green.speed(7)
-time.sleep(5)
-turtle_green.goto(-100,0)
+
+turtle_green.goto(-500,0)
 turtle_purple=t.Turtle()
 turtle_purple.shape("turtle")
 turtle_purple.penup()
 turtle_purple.color("purple")
 turtle_purple.speed(6)
-turtle_purple.goto(-100,40)
+turtle_purple.goto(-500,40)
 turtle_blue=t.Turtle()
 turtle_blue.shape("turtle")
 turtle_blue.penup()
 turtle_blue.color("blue")
 turtle_blue.speed(9)
-turtle_blue.goto(-100,80)
-turtle3=t.Turtle()
-turtle_green.shape("turtle")
-turtle3.penup()
-turtle3.color("red")
-turtle3.speed(48)
-turtle3.goto(-100,120)
-time.sleep(3)
-while turtle_green != 400 or turtle1 != 400 or turtle_blue != 400 or turtle3 !=400:
+turtle_blue.goto(-500,80)
+turtle_red=t.Turtle()
+turtle_red.shape("turtle")
+turtle_red.penup()
+turtle_red.color("red")
+turtle_red.speed(48)
+turtle_red.goto(-500,120)
+turtle_orange=t.Turtle()
+turtle_orange.shape("turtle")
+turtle_orange.penup()
+turtle_orange.color("orange")
+turtle_orange.speed(48)
+turtle_orange.goto(-500,160)
+turtle_finish_line=t.Turtle()
+turtle_finish_line.penup()
+turtle_finish_line.hideturtle()
+turtle_finish_line.speed(0)
+turtle_finish_line.goto(400,0)
+true_turtle_winner=False
+def turtle_winner(turtle):
+        if turtle.position()>=turtle_finish_line.position():
+                print("steve")
+                return True
+turtle_winner(turtle_blue)
+turtle_winner(turtle_green)
+turtle_winner(turtle_red)
+turtle_winner(turtle_orange)
+turtle_winner(turtle_purple)
+while true_turtle_winner==False:
+    def turtle_winner(turtle):
+        if turtle.position()>=turtle_finish_line.position():
+                print("steve")
+                return True
     turtle_purple.forward(numbers)
     turtle_blue.forward(numbers2)
     turtle_green.forward(numbers3)
     turtle_red.forward(numbers4)
-
-
-
-
-t.exitonclick
+    turtle_orange.forward(numbers)
