@@ -45,22 +45,33 @@ turtle_finish_line.hideturtle()
 turtle_finish_line.speed(0)
 turtle_finish_line.goto(400,0)
 true_turtle_winner=False
+
+
+
+
+
+
+
 def turtle_winner(turtle):
-        if turtle.position()>=turtle_finish_line.position():
-                print("steve")
-                return True
-turtle_winner(turtle_blue)
-turtle_winner(turtle_green)
-turtle_winner(turtle_red)
-turtle_winner(turtle_orange)
-turtle_winner(turtle_purple)
+      if turtle.xcor()>=400:
+           print(turtle,"won")
+           return True
+      else:
+          return False
+        
 while true_turtle_winner==False:
-    def turtle_winner(turtle):
-        if turtle.position()>=turtle_finish_line.position():
-                print("steve")
-                return True
     turtle_purple.forward(numbers)
     turtle_blue.forward(numbers2)
     turtle_green.forward(numbers3)
     turtle_red.forward(numbers4)
     turtle_orange.forward(numbers)
+    if turtle_winner(turtle_blue):
+        break
+    if turtle_winner(turtle_green):
+        break
+    if turtle_winner(turtle_red):
+        break
+    if turtle_winner(turtle_orange):
+        break
+    if turtle_winner(turtle_purple):
+        break
