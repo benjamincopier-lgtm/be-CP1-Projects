@@ -1,4 +1,4 @@
-#lhhfhdfajhslkjdafsakjhkjgdsalkjgfdlkjfdshfdlksajlkjhfdaskjlkjhfdjsalkhfalskdjfhalkjsdf
+#benjamin copier turtle racers
 
 
 import turtle as t
@@ -53,19 +53,24 @@ def turtle_winner(turtle,carl):
           return False
         
 while true_turtle_winner==False:
-    turtle_purple.forward(numbers)
+    numbers = r.randint(1,50)
+    numbers2=r.randint(1,50)
+    numbers3 = r.randint(1,50)
+    numbers4=r.randint(1,24)
+    numbers5 = r.randint(1,50)
     turtle_blue.forward(numbers2)
-    turtle_green.forward(numbers3)
-    turtle_red.forward(numbers4)
-    turtle_orange.forward(numbers5)
     if turtle_winner(turtle_blue, "blue turtle"):
         break
+    turtle_green.forward(numbers3)
     if turtle_winner(turtle_green,  "green turtle" ):
         break
+    turtle_red.forward(numbers4)
     if turtle_winner(turtle_red, "red turtle"):
         break
+    turtle_orange.forward(numbers5)
     if turtle_winner(turtle_orange, "orange turtle"):
         break
+    turtle_purple.forward(numbers)
     if turtle_winner(turtle_purple, "purple turtle"):
         break
 t.exitonclick()
