@@ -6,5 +6,6 @@ while choosing_class == True:
         print("your a wizard harry")
     elif p_class_chosen== 2 or "fighter":
         print("Fight!!(er)")
-        return False
-    elif
+        choosing_class = False
+    elif p_class_chosen== 3 or "cleric":
+        print("its cler(ic) to me")
