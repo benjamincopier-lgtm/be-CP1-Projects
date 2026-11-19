@@ -18,26 +18,35 @@ drink={
     "lemonade":100,
     "hot chocolate": 200
 }
-def price(menu, item, amount):
+def price(item1,item2,item3):
+    total_p = 0
+    total_p += item1 + item2 + item3
+    return total_p
     
+    
+
 keys=list(sides.keys())
 for key in keys:
     print(f"the sides and prices are {key} it is {sides[key]} cents")
 ordering= True
 while ordering== True:
     side_chosen=input("what side do you want in your meal: ")
+
     if side_chosen in sides:
         while True :
             try:
                 side_numb=int(input("how many do you want: "))
                 price1=side_numb*sides[side_chosen]
-                total1=(f"you wanted {side_numb} {side_chosen} and spent {price1} cents")
+                total1=(f"you wanted {side_numb} {side_chosen} and spent {price1}")
             except:
                 print("you need a number")
             else:
                 break
         ordering=False
 keys=list(main_coarse.keys())
+
+
+
 for key in keys:
     print(f"the main coarse and price is {key} it is {main_coarse[key]} cents")
 ordering= True
@@ -54,6 +63,7 @@ while ordering== True:
             else:
                 break
         ordering=False
+
 keys=list(drink.keys())
 for key in keys:
     print(f"the main coarse and price is {key} it is {drink[key]} cents")
@@ -65,11 +75,12 @@ while ordering== True:
             try:
                 drink_amount=int(input("how many do you want: "))
                 price3=drink_amount*drink[drink_chosen]
-                total3=(f"you wanted {drink_amount}(s) {drink_chosen} and spent {price3} cents")
+                total3=(f"you wanted {drink_amount} {drink_chosen}(s) and spent {price3} cents")
             except:
                 print("you need a number")
             else:
                 break
         ordering=False
-total_price=price2+price1+price3
-print(f"{total1} for your side, {total2} for your main coarse and {total3}. in total you spent {total_price}")
+
+final = price(price1, price2, price3)
+print(f"{total1} for your side, {total2} for your main coarse and {total3}. in total you spent {final} cents")
