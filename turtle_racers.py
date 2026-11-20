@@ -59,14 +59,17 @@ def turtle_winner(turtle,carl):
            return True
       else:
           return False
-        
+numbers4=r.randint(1,24)        
 while true_turtle_winner==False:
     numbers = r.randint(1,50)
     numbers2=r.randint(1,50)
     numbers3 = r.randint(1,50)
-    numbers4=r.randint(1,24)
     numbers5 = r.randint(1,50)
+    numbers6 = r.randint(1,50)
+    if numbers6== 24:
+        numbers4=75
     turtle_blue.forward(numbers2)
+
     if turtle_winner(turtle_blue, "blue turtle"):
         break
     turtle_green.forward(numbers3)
